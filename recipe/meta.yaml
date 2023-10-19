@@ -1,13 +1,13 @@
 {% set name = "lua-compat-5.3-c" %}
-{% set version = "0.10" %}
+{% set version = "0.11" %}
 
 package:
-  name: {{ name }} 
+  name: {{ name }}
   version: {{ version }}
 
 source:
   url: https://github.com/lunarmodules/lua-compat-5.3/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d1ed32f091856f6fffab06232da79c48b437afd4cd89e5c1fc85d7905b011430
+  sha256: 763d3c33b25ffa0f3aba1fa906541929b905dbeb127ebe8ccc1e8214b2fa4a95
 
 build:
   number: 0
