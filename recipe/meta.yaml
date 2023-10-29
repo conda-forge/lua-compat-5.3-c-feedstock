@@ -12,7 +12,6 @@ source:
 build:
   noarch: generic
   number: 0
-  skip: true  # [win]
   script:
     - mkdir -p ${PREFIX}/include/lua-compat-5.3
     - cp -r c-api ${PREFIX}/include/lua-compat-5.3
