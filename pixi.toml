@@ -4,7 +4,7 @@
 
 [project]
 name = "lua-compat-5.3-c-feedstock"
-version = "3.44.9"
+version = "3.45.3"
 description = "Pixi configuration for conda-forge/lua-compat-5.3-c-feedstock"
 authors = ["@conda-forge/lua-compat-5.3-c"]
 channels = ["conda-forge"]
