@@ -1,5 +1,5 @@
 context:
-  version: "0.14.4"
+  version: "0.15.0"
 
 package:
   name: lua-compat-5.3-c
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lunarmodules/lua-compat-5.3/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: a9afa2eb812996039a05c5101067e6a31af9a75eded998937a1ce814afe1b150
+  sha256: 47caa8cabb85a4ddaefb9445528504b0197a15b39fec3ac9b29818d647198b23
 
 build:
   number: 0
